@@ -13,6 +13,7 @@ admin.initializeApp({
 var request = require('request');
 
 var db = admin.database();
+ console.log("start");
 
 var minutes = 10, the_interval = minutes * 60 * 1000;
 setInterval(function() {
